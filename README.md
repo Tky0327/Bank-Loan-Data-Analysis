@@ -16,9 +16,16 @@ Excel: Data cleaning
 SQL: Data analysis
 Power BI: Creating dashboard
 
+
 ### Exploratory Data Analysis (EDA)
 
-1. 
+EDA involved exploring the bank loan data to answer key questions, such as:
+
+1. What is the total loan application?
+2. What is the total funded amount?
+3. What is the average interest rate?
+4. What is the total amount received?
+5. What is the average Debt to Income ratio?
 
 
 ### Data Cleaning
