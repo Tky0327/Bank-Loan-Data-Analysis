@@ -7,7 +7,7 @@ This data analysis project aims to gain insights into the set of bank loan data.
 
 ### Data Sources
 
-Bank Loan Data: The primary data set used for this data is the 'financial_loan.csv' file. [Download here]
+Bank Loan Data: The primary data set used for this data is the 'financial_loan.csv' file. 
 
 
 ### Tools
@@ -16,18 +16,44 @@ Excel: Data cleaning
 SQL: Data analysis
 Power BI: Creating dashboard
 
+### Exploratory Data Analysis (EDA)
+
+1. 
+
 
 ### Data Cleaning
 
-Data cleaning was performed using Excel. Key steps included:
+The data cleaning process involved several steps to ensure the dataset was accurate and ready for analysis:
 
-1. Removing duplicates
+1. Removing Duplicates: Identified and removed duplicate records to avoid skewing the analysis.
 
-2. Handling missing values
+```excel
+Remove Duplicates
+```
 
-3. Standardizing date formats
+2. Handling Missing Values: Checked for missing values and applied appropriate strategies such as imputation or removal of incomplete records.
 
-4. Ensuring data consistency and accuracy
+``` excel
+IF(ISBLANK(Cell), "Missing", Cell)
+```
+
+3. Correcting Data Types: Ensured that all columns had appropriate data types for accurate analysis (e.g., dates formatted correctly, numerical values).
+
+``` excel
+DATEVALUE(Cell)
+```
+
+4. Standardizing Text: Standardized text fields to maintain consistency, such as converting all text to lowercase or removing leading/trailing spaces.
+
+``` excel
+LOWER(TRIM(Cell))
+```
+
+5. Validating Data: Cross-verified data entries to ensure consistency and accuracy, such as checking for logical errors or outliers.
+
+``` excel
+IF(Cell < 0, "Error", Cell)
+```
 
 
 ### SQL Queries
