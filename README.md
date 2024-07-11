@@ -9,6 +9,27 @@ This data analysis project aims to gain insights into the set of bank loan data.
 
 Bank Loan Data: The primary data set used for this data is the 'financial_loan.csv' file. [Download here]
 
+
+### Tools
+
+Excel: Data cleaning
+SQL: Data analysis
+Power BI: Creating dashboard
+
+
+### Data Cleaning
+
+Data cleaning was performed using Excel. Key steps included:
+
+1. Removing duplicates
+
+2. Handling missing values
+
+3. Standardizing date formats
+
+4. Ensuring data consistency and accuracy
+
+
 ### SQL Queries
 
 #### Total Loan Applications
@@ -240,6 +261,7 @@ FROM bank_loan_data
 GROUP BY home_ownership
 ORDER BY home_ownership
 ````
+
 
 
 
